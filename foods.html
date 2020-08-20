@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <!--NAVBAR-->
+    <nav
+      class="navbar navbar-expand-md navbar-light"
+      style="background-color: #f6df97;"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="" width="30" height="30" />
+          P-Chef
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav justify-content-around">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Foods <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--RECIPE BANNER-->
+    <div class="food-banner text-center">
+      <h2 class="food-banner-heading">Recipes</h2>
+    </div>
+    <!--FOODS CONTAINER-->
+    <div class="container my-5 pt-4">
+      <div class="card">
+        <div class="card-header">
+          <!--FOOD CONTAINER NAV-->
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+        <!--LIST OF FOOD IN CARDS-->
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Jellof Rice
+              <!--ADD ICONS-->
+              <span class="food-icons">
+                <!--view and edit icons for food-->
+                <i>
+                  <a href="" data-toggle="modal" data-target="#exampleModal"
+                    ><img src="./images/eye icon.jpg" alt="" /> View</a
+                  >
+                  <a href="">
+                    <img src="./images/pen icon.png" alt="" /> Edit
+                  </a>
+                </i>
+              </span>
+            </li>
+            <li class="list-group-item">
+              Fried Recipes
+              <!--ADD ICONS-->
+              <span class="food-icons">
+                <!--view and edit icons for food-->
+                <i>
+                  <a href="" data-toggle="modal" data-target="#exampleModal"
+                    ><img src="./images/eye icon.jpg" alt="" /> View</a
+                  >
+                  <a href="">
+                    <img src="./images/pen icon.png" alt="" /> Edit
+                  </a>
+                </i>
+              </span>
+            </li>
+            <li class="list-group-item">
+              Coconut Rice
+              <!--ADD ICONS-->
+              <span class="food-icons">
+                <!--view and edit icons for food-->
+                <i>
+                  <a href="" data-toggle="modal" data-target="#exampleModal"
+                    ><img src="./images/eye icon.jpg" alt="" /> View</a
+                  >
+                  <a href="">
+                    <img src="./images/pen icon.png" alt="" /> Edit
+                  </a>
+                </i>
+              </span>
+            </li>
+            <li class="list-group-item">
+              White rice and Stew
+              <!--ADD ICONS-->
+              <span class="food-icons">
+                <!--view and edit icons for food-->
+                <i>
+                  <a href="" data-toggle="modal" data-target="#exampleModal"
+                    ><img src="./images/eye icon.jpg" alt="" /> View</a
+                  >
+                  <a href="">
+                    <img src="./images/pen icon.png" alt="" /> Edit
+                  </a>
+                </i>
+              </span>
+            </li>
+            <li class="list-group-item">
+              White rice and Sauce
+              <!--ADD ICONS-->
+              <span class="food-icons">
+                <!--view and edit icons for food-->
+                <i>
+                  <a href="" data-toggle="modal" data-target="#exampleModal"
+                    ><img src="./images/eye icon.jpg" alt="" /> View</a
+                  >
+                  <a href="">
+                    <img src="./images/pen icon.png" alt="" /> Edit
+                  </a>
+                </i>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                molestias tempora recusandae, alias cumque similique nisi, qui
+                repellendus eum provident minima rerum! Suscipit natus
+                doloremque incidunt eius sunt sed nemo? Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Non molestias tempora
+                recusandae, alias cumque similique nisi, qui repellendus eum
+                provident minima rerum! Suscipit natus doloremque incidunt eius
+                sunt sed nemo? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Non molestias tempora recusandae, alias cumque
+                similique nisi, qui repellendus eum provident minima rerum!
+                Suscipit natus doloremque incidunt eius sunt sed nemo? Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Non molestias
+                tempora recusandae, alias cumque similique nisi, qui repellendus
+                eum provident minima rerum! Suscipit natus doloremque incidunt
+                eius sunt sed nemo? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Non molestias tempora recusandae, alias cumque
+                similique nisi, qui repellendus eum provident minima rerum!
+                Suscipit natus doloremque incidunt eius sunt sed nemo?
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer></footer>
+    <script src="" async defer></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
